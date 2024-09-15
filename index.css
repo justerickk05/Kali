@@ -21,7 +21,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 9%;
     background: transparent;
 }
 
@@ -54,11 +53,6 @@ header {
     z-index: 10001;
     cursor: pointer;
     display: none;
-    transition: .55s ease;
-}
-
-#menu-icon:hover {
-    transform: translateY(-5px);
 }
 
 #hero {
