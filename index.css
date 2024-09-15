@@ -9,8 +9,11 @@
 }
 
 html {
-    overflow: hidden;
     scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -120,7 +123,7 @@ header {
 
 .hero-image {
     position: relative;
-    width: 40vh;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -199,9 +202,8 @@ section {
 
     .hero-image {
         justify-self: center;
-        width: 30vh;
+        width: 75%;
         height: auto;
-        margin-top: -200px;
     }
 
     .hero-text .button-holder {
@@ -215,6 +217,8 @@ section {
     }
 
     #hero {
+        padding-top: 50px;
+        padding-bottom: 60px;
         height: 100%;
         gap: 1rem;
         grid-template-columns: 1fr;
