@@ -40,7 +40,7 @@ header {
     font-size: 15px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
-    transition:  all .55s ease;
+    transition: .55s ease;
 }
 
 .navlist a:hover {
@@ -54,7 +54,7 @@ header {
     z-index: 10001;
     cursor: pointer;
     display: none;
-    transition: all .55s ease;
+    transition: .55s ease;
 }
 
 #menu-icon:hover {
@@ -102,7 +102,7 @@ header {
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     border-radius: 18px;
-    transition: all 0.55s ease;
+    transition: 0.55s ease;
 }
 
 .hero-text .button:hover {
@@ -143,6 +143,9 @@ header {
 
 section {
     padding: 0 19%;
+    white-space: wrap;
+    word-break: break-word;
+    overflow: hidden;
 }
 
 .scroll-down {
@@ -162,7 +165,7 @@ section {
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.27);
     border-radius: 30px;
-    transition: all .50s ease;
+    transition: .50s ease;
 }
 
 .scroll-down i:hover {
@@ -233,7 +236,7 @@ section {
         align-items: center;
         flex-direction: column;
         padding: 20px 0px;
-        transition: all .55s ease;
+        transition: .55s ease;
     }
 
     .navlist a {
