@@ -189,6 +189,7 @@ section {
 }
 
 @media (max-width: 990px){
+    
     #menu-icon {
         display: block;
     }
@@ -208,7 +209,6 @@ section {
     .hero-text {
         width: auto;
         text-align: center;
-        padding-top: 40px;
     }
 
     #hero {
