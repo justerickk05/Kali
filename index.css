@@ -16,12 +16,12 @@ header {
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 101;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 9%;
+    padding: 2px 5%;
     background: transparent;
 }
 
@@ -55,7 +55,6 @@ section {
 #menu-icon {
     color: white;
     font-size: 35px;
-    z-index: 10001;
     cursor: pointer;
     display: none;
     transition: .55s ease;
@@ -144,7 +143,6 @@ section {
     
     #menu-icon {
         display: block;
-        padding: 0px 20px;
     }
 
     .hero-image {
@@ -173,9 +171,9 @@ section {
 
     .navlist {
         position: absolute;
-        top: 80%;
+        top: 70%;
         right: -100%;
-        width: 200px;
+        width: 175px;
         height: auto;
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
         backdrop-filter: blur(10px);
@@ -186,7 +184,7 @@ section {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 20px 0px;
+        padding: 10px 0px;
         transition: .55s ease;
     }
 
@@ -204,4 +202,26 @@ section {
     .navlist.open {
         right: 0px;
     }
+
+    .overlay.open {
+        background: transparent;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+    }
+    
+}
+
+.footer {
+    background-color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    color: #818181;
+    padding: 20px;
+    text-align: center;
 }
