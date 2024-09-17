@@ -6,25 +6,33 @@
         <link rel="icon" type="image/png" href="KALI_Logo.png">
         <title>Kali</title>
         <link rel="stylesheet" href="index.css">
+        <!-- Libraries :) -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
     <body>
+        <!-- Navbar -->
         <header>
-            <a class="logo" href="https://justerickk05.github.io/Kali/"><img src="KALI_Logo.png" alt=""></a>
-
-            <ul class="navlist">
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="precios.html">Precios</a></li>
-                <li><a href="#info">Sobre Nosotros</a></li>
-                <li><a href="">Reclutamiento</a></li>
-            </ul>
-
-            <div class="bx bx-menu" id="menu-icon"></div>
+            <div id="header-main-content">
+                <a id="header-logo" href="https://justerickk05.github.io/Kali/"><img src="KALI_Logo.png" alt=""></a>
+    
+                <nav>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Precios</a></li>
+                        <li><a href="">Sobre Nosotros</a></li>
+                        <li><a href="">Reclutamiento</a></li>
+                    </ul>
+                </nav>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
         </header>
-        <label class="overlay" for=".navlist"></label>
+        <label for="menu-icon" class="overlay"></label>
+        <!---->
         <script src="scripts/menuIconToggle.js"></script>
 
+        <!-- Hero -->
         <section id="hero">
             <div class="hero-text">
                 <h1>KALI</h1>
@@ -32,14 +40,13 @@
                 <a href="#info" class="button">Descubre KALI</a>
             </div>
             <div class="hero-image">
-                <img src="media/images/hero-img.jpg" alt="">
+                <img src="" alt="">
             </div>
         </section>
 
         
         <section id="info">
-            <label class="blur" for="#info"></label>
-            <img src="KALI_Logo.png" alt="" class="info-main-background">
+            <img src="" alt="" class="info-main-background">
             <div class="info-main-content">
                 <div class="info-main-title">
                     <h2>KALI</h2>
@@ -50,11 +57,10 @@
                 </div>
             </div>
         </section>
-        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="scripts/scrollReveal.js"></script>
 
-        <footer class="footer">
-            <p>Copyright &copy; 2024 Kali&trade;. All Rights Reserved.</p>
+        <footer>
+            <p>Este sitio y su contenido es propiedad de Kali&trade;. 2024.<br><span>Todos los derechos reservados.</span></p>
         </footer>
     </body>
 </html>
