@@ -23,6 +23,11 @@ section {
     margin-top: 50px;
 }
 
+#hero-main-content p {
+    color: white;
+    font-size: 2rem;
+}
+
 #hero-title {
     white-space: nowrap;
     position: relative;
